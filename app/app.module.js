@@ -6,10 +6,6 @@ require("./show-todo/show-todo.module");
 require("./add-todo/add-todo.module");
 require("./edit-todo/edit-todo.module");
 require("./todo-form/todo-form.module");
-/*
-import todoFactory from "./factories/todos-factory";
-import todoDays from "./filters/todo-days";
-*/
 
 import todoFactory from "./todo-helpers/todos-factory";
 import todoDays from "./todo-helpers/todo-days";

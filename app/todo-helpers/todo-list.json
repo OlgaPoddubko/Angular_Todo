@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "Read manual",
+    "created": "2018-03-03T21:00:00.000Z",
+    "done": true
+  },
+  {
+    "id": 2,
+    "text": "Go to workshop",
+    "created": "2018-02-28T21:00:00.000Z",
+    "done": true
+  },
+
+  {
+    "id": 3,
+    "text": "Do homework",
+    "created": "2018-02-28T21:00:00.000Z",
+    "done": false
+  },
+  {
+    "id": 4,
+    "text": "Enjoy your spare time",
+    "created": "2018-03-04T21:00:00.000Z",
+    "done": false
+  }
+]

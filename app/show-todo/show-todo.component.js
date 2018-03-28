@@ -10,7 +10,7 @@ angular.module('showTodo').component('showTodo', {
       };
 
       $scope.editTodo = todo => {
-        todoFactory.setEditState(todo);
+        todoFactory.editTodo(todo);
       };
 
       $scope.toggleDone = function(todo) {

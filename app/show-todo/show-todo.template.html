@@ -5,6 +5,7 @@
   <button ng-click="sortParam = null">set to unsorted</button>
 
   <span ng-if="todos.length == 0">You have no active todos!</span>
+
   <h3>New todos:</h3>
   <ul ng-repeat="todo in todos | orderBy:sortParam">
     <li ng-if="todo.done === false">

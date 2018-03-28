@@ -9,10 +9,6 @@ angular.module('showTodo').component('showTodo', {
         todoFactory.removeTodo(todo);
       };
 
-      $scope.completeTodo = todo => {
-        todoFactory.moveToCompleted(todo);
-      };
-
       $scope.editTodo = todo => {
         todoFactory.setEditState(todo);
       };
